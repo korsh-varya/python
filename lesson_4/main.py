@@ -72,7 +72,7 @@
 #     print("нуль")
 
 year = int(input("Год:"))
-if year % 4 == 0 and year % 400 == 0 or year % 100:
+if year % 4 == 0 and (year % 400 == 0 or year % 100):
     print("Год високосный")
 else:
     print("Год не високосный")
